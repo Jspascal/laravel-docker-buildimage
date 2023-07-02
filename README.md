@@ -25,6 +25,8 @@ The environment can be configured by editing the .env file in the root directory
 * MAIL_USERNAME - The username for the mail server.
 * MAIL_PASSWORD - The password for the mail server.
 
+Also if you have to change the name of the application ("app" by default) in the docker-compose file, make sure you also change it in nginx/conf.d fastcgi paramaters
+
 ## Troubleshooting
 If you encounter any problems with the environment, please check the following:
 
