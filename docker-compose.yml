@@ -52,7 +52,7 @@ services:
 
     app-mail:
         image: maildev/maildev
-        container_name: jetchoko-mail
+        container_name: app-mail
         ports:
             - "1080:1080"
         networks:
