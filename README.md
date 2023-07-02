@@ -11,7 +11,7 @@ Use code with caution. Learn more
 docker-compose up -d
 ```
 
-The environment will be available at http://localhost:8080.
+The laravel application will be available at http://localhost:80, through nginx proxy
 
 ## Configuring the Environment
 The environment can be configured by editing the .env file in the root directory of the repository. The following environment variables are available:
